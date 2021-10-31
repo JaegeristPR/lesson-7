@@ -1,0 +1,113 @@
+*{
+    margin: 0 auto;
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+}
+
+.head-inner{
+    width: 100%;
+    height: 150px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-c{
+    float: left;
+    width: 30%;
+    height: 650px;
+    background-color: yellow;
+    display: block;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.right-c{
+    text-align: center;
+    float: right;
+    width: 70%;
+    height: 650px;
+    background-color: rgb(119, 119, 119);
+}
+
+.right-c-img{
+    width: 90%;
+    height: 400px;
+    background: url(https://wordpress-developer.pp.ua/wp-content/uploads/flexbox-css.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.frame-c{
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-end;
+}
+
+.right-c-bot-left{
+    height: 125px;
+    width: 175px;
+    background-color: black;
+}
+
+.right-c-bot-left:hover{
+    height: 135px;
+    width: 185px;
+    background-color: rgb(36, 36, 36);
+}
+
+.right-c-bot-c{
+    height: 125px;
+    width: 175px;
+    background-color: black;
+}
+
+.right-c-bot-c:hover{
+    height: 135px;
+    width: 185px;
+    background-color: rgb(36, 36, 36);
+}
+
+.right-c-bot-c:hover{
+    height: 135px;
+    width: 185px;
+    background-color: rgb(36, 36, 36);
+}
+
+.right-c-bot-right{
+    height: 125px;
+    width: 175px;
+    background-color: black;
+}
+
+.right-c-bot-right:hover{
+    height: 135px;
+    width: 185px;
+    background-color: rgb(36, 36, 36);
+}
+
+.bottom{
+    width: 100%;
+    height: 150px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+h1{
+    color: white;
+}
+
+p{
+    margin: 20px
+}
+
+p:hover{
+    color: red;
+}
